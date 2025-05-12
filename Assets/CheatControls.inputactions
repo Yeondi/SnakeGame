@@ -1,0 +1,74 @@
+{
+    "name": "CheatControls",
+    "maps": [
+        {
+            "name": "Cheat",
+            "id": "09928326-b85e-4bbe-8bfb-eebfd721041e",
+            "actions": [
+                {
+                    "name": "SwitchToPistol",
+                    "type": "Button",
+                    "id": "acf7e4ae-11e4-464b-9b3c-f4a7fa0b728d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SwitchToShotgun",
+                    "type": "Button",
+                    "id": "4ec9a675-2b1e-442a-8ad3-d233a5b8957c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "AddSquadMember",
+                    "type": "Button",
+                    "id": "14167598-e721-4ff0-8e68-c35f07b3d70c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8f706232-a917-4d62-9d13-b88828b7e617",
+                    "path": "<Keyboard>/f1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchToPistol",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "47b0cca2-c069-478a-bf5a-960294d61064",
+                    "path": "<Keyboard>/f2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchToShotgun",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b656adce-5731-4ff9-834a-e2dab3a09955",
+                    "path": "<Keyboard>/f12",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AddSquadMember",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
